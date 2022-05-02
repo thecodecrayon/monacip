@@ -1,0 +1,30 @@
+.sm-btn {
+  width: 16.4rem;
+  height: 4.5rem;
+  background: var(--light-grey);
+  color: black;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sm-btn > img {
+  width: 2.5rem;
+  margin-right: .5rem;
+}
+
+.sm-btn .fb-icon {
+  width: 2rem;
+}
+
+/* ADD USER BUTTON */
+.add-user-btn {
+  background: var(--dark-green);
+  border: none;
+  border-radius: .5rem;
+  padding: 1rem 2rem;
+  color: var(--light-grey);
+  font-size: 1.6rem;
+  font-family: 'Rubik', sans-serif, Verdana, Geneva;
+}

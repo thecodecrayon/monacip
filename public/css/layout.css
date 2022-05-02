@@ -1,0 +1,40 @@
+.container {
+  max-width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  position: relative;
+}
+
+/* HEADER */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  margin-right: 5rem
+}
+
+nav ul > li:not(:last-child) {
+  margin-right: 2.5rem;
+}
+
+nav ul > li a {
+  font-size: 1.8rem;
+  color: #272727;
+}
+
+nav ul > li a:hover {
+  text-decoration: underline;
+  color: blue;
+}

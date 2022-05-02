@@ -1,0 +1,57 @@
+<%- include('./partials/header.ejs') %>
+
+<div class="dashboard-wrapper">
+  <div class="sidebar">
+    <div class="img-box">
+      <img src="/img/mona-logo.png" alt="" width="100px" height="100px" class="dashboard-logo">
+    </div>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">File Repository</a></li>
+        <li><a href="#">Forms</a></li>
+        <li><a href="#">User Management</a></li>
+        <li><a href="#">Training</a></li>
+        <li><a href="#">Notifications</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mainbar">
+    <!-- HEADER -->
+    <div class="header">
+      <div class="top-header">
+        <p>Hello <strong>Rudra</strong>, You are doing great!</p>
+      </div>
+
+      <div class="bottom-header">
+        <h2>User Management</h2>
+        <button class="add-user-btn">&plus;&nbsp;&nbsp;Add New User</button>
+      </div>
+    </div>
+
+    <!-- USER LISTING -->
+    <div class="top-listing">
+      <div class="users">
+        <div class="user">
+          <div class="name">
+            <img src="" alt="">
+            <p class="name">James Smith</p>
+          </div>
+          <p class="email"></p>
+          <p class="phone"></p>
+          <p class="gender"></p>
+        </div>
+        <div class="user"></div>
+        <div class="user"></div>
+        <div class="user"></div>
+      </div>
+
+      <div class="add-user-form">
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('./partials/footer.ejs') %>

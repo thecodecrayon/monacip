@@ -1,0 +1,27 @@
+.box {
+  position: absolute;
+  width: 45rem;
+  height: 45rem;
+  background-color: #f9f9f9;
+}
+
+.box--1 {
+  left: 30%;
+  top: -10%;
+  transform: rotateZ(20deg);
+  border-radius: 13rem;
+}
+
+.box--2 {
+  right: -25%;
+  top: -12%;
+  transform: rotateZ(60deg);
+  border-radius: 9rem;
+}
+
+.box--3 {
+  bottom: -50%;
+  left: 55%;
+  transform: rotateZ(50deg);
+  border-radius: 9rem;
+}
